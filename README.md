@@ -50,7 +50,7 @@ AYUR-SANKET is a lightweight, plug-and-play microservice that bridges traditiona
 - **SNOMED CT/LOINC** - Clinical terminology standards
 
 <!-- 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -93,7 +93,7 @@ REDIS_URL=redis://localhost:6379
 SECRET_KEY=your-secret-key
 ```
 
-## 📚 API Usage
+## API Usage
 
 ### Search Terminology
 ```bash
@@ -124,7 +124,7 @@ curl -X POST "http://localhost:8000/fhir/create-bundle" \
   }'
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -140,15 +140,15 @@ curl -X POST "http://localhost:8000/fhir/create-bundle" \
                     └─────────────────┘
 ```
 
-## 📊 Impact Metrics
+## Impact Metrics
 
-- **🎯 Target**: 1000+ EMR integrations across India
-- **⚡ Performance**: <200ms response time, 99.9% uptime
-- **🎯 Accuracy**: 95%+ mapping confidence with ML validation
-- **📈 Coverage**: 4,500+ NAMASTE codes ↔ 529 ICD-11 TM2 categories
-- **💰 Market Impact**: Unlock ₹500+ crore Ayush insurance market
+- **Target**: 1000+ EMR integrations across India
+- **Performance**: <200ms response time, 99.9% uptime
+- **Accuracy**: 95%+ mapping confidence with ML validation
+- **Coverage**: 4,500+ NAMASTE codes ↔ 529 ICD-11 TM2 categories
+- **Market Impact**: Unlock ₹500+ crore Ayush insurance market
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -156,7 +156,7 @@ curl -X POST "http://localhost:8000/fhir/create-bundle" \
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📋 Testing
+## Testing
 
 ```bash
 # Backend tests
@@ -168,7 +168,7 @@ cd frontend
 npm test
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ```bash
 # Production deployment
@@ -178,14 +178,14 @@ docker-compose -f docker-compose.prod.yml up -d
 kubectl apply -f k8s/
 ```
 
-## 📄 Documentation
+## Documentation
 
 - **API Documentation**: http://localhost:8000/docs (Swagger UI)
 - **FHIR Implementation Guide**: `/docs/fhir-guide.md`
 - **Integration Manual**: `/docs/emr-integration.md`
 - **Deployment Guide**: `/docs/deployment.md`
 -->
-## 🏆 Team Sprint Schmeide
+## Team Sprint Schmeide
 
 **Smart India Hackathon 2025 - Problem Statement #26, SIH25026**
 
@@ -196,7 +196,7 @@ kubectl apply -f k8s/
 - **Project Manager**: [Your Name] -->
 
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -210,7 +210,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**🩺 Making traditional medicine globally accessible, one API call at a time.**
+** Making traditional medicine globally accessible, one API call at a time.**
 
 For questions or support, reach out to: [your-email@domain.com]
 
