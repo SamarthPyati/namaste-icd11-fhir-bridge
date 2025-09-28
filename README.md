@@ -15,14 +15,14 @@ AYUR-SANKET is a lightweight, plug-and-play microservice that bridges traditiona
 
 ## Key Features
 
-- ** Plug-and-Play**: Works with any EMR system without modifications
-- ** Intelligent Mapping**: ML-powered translation between NAMASTE ↔ ICD-11 codes
-- ** Lightning Fast**: Sub-200ms API responses with Redis caching
-- ** FHIR Compliant**: Full FHIR R4 compatibility for global interoperability
-- ** ABHA Integration**: Seamless authentication with India's health account system
-- ** Real-time Sync**: Automated updates from WHO ICD-11 API
+- **Plug-and-Play**: Works with any EMR system without modifications
+- **Intelligent Mapping**: ML-powered translation between NAMASTE ↔ ICD-11 codes
+- **Lightning Fast**: Sub-200ms API responses with Redis caching
+- **FHIR Compliant**: Full FHIR R4 compatibility for global interoperability
+- **ABHA Integration**: Seamless authentication with India's health account system
+- **Real-time Sync**: Automated updates from WHO ICD-11 API
 
-## 🎯 Problem Solved
+## Problem Solved
 
 | **Before AYUR-SANKET** | **After AYUR-SANKET** |
 |-------------------------|------------------------|
@@ -31,7 +31,7 @@ AYUR-SANKET is a lightweight, plug-and-play microservice that bridges traditiona
 | ❌ EMRs can't handle traditional medicine codes | ✅ Any EMR supports NAMASTE + ICD-11 dual coding |
 | ❌ Manual code lookup and translation | ✅ Intelligent auto-suggestions and validation |
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **FastAPI** - High-performance async Python framework
@@ -195,12 +195,12 @@ kubectl apply -f k8s/
 - **ML Engineer**: [Your Name]
 - **Project Manager**: [Your Name] -->
 
-<!-- 
 
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+<!-- 
 ## 🙏 Acknowledgments
 
 - Ministry of AYUSH for NAMASTE terminology standards
