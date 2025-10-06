@@ -220,7 +220,7 @@ kubectl apply -f k8s/
 
 **Smart India Hackathon 2025 - Problem Statement #26, SIH25026**
 
-<!-- - **Backend Developers**: Vinay
+<!-- - **Backend Developers**: [Your Name]
 - **Frontend Developer**: [Your Name]
 - **FHIR Specialist**: [Your Name]
 - **ML Engineer**: [Your Name]
@@ -231,18 +231,16 @@ kubectl apply -f k8s/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<!-- 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Ministry of AYUSH for NAMASTE terminology standards
 - World Health Organization for ICD-11 TM2 specifications
 - National Health Authority for ABHA integration guidelines
 - All India Institute of Ayurveda (AIIA) for domain expertise
-
 ---
 
-** Making traditional medicine globally accessible, one API call at a time.**
+**Making traditional medicine globally accessible, one API call at a time.**
+<!-- 
 
-For questions or support, reach out to: [your-email@domain.com]
-
- -->
+For questions or support, reach out to: samarthpyati@domain.com]
+  -->
