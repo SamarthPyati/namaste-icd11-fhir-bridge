@@ -49,6 +49,37 @@ AYUR-SANKET is a lightweight, plug-and-play microservice that bridges traditiona
 - **ABHA OAuth 2.0** - National health authentication
 - **SNOMED CT/LOINC** - Clinical terminology standards
 
+## Build Application
+
+### Step 1 - Set up the virtual environment 
+```
+python -m venv .venv                (Win)
+.\venv\Scripts\activate
+```
+```
+python3 -m venv .venv               (Mac/Linux)
+source .venv/bin/activate
+```
+
+### Step 2 - Create a .env folder and add all the environment varibles there
+```
+mkdir .env
+```
+
+## Backend
+
+### API
+API endpoints
+
+### DB
+Creates and connect to the instance of the Database (engine)
+
+### Models
+Database schema required to store the data
+
+### Services
+Middleware services
+
 <!-- 
 ## Quick Start
 
