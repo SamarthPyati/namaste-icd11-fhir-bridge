@@ -1,23 +1,37 @@
 [project]
 name = "namaste-icd11-fhir-bridge"
 version = "0.1.0"
-description = "Add your description here"
+description = "AYUR-SANKET is a lightweight, plug-and-play microservice that bridges traditional Indian medicine (NAMASTE codes) with global healthcare standards (ICD-11 TM2). It enables existing EMR systems to support Ayurveda, Siddha, and Unani treatments with full insurance eligibility and research compliance."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "annotated-types==0.7.0",
+    "anyio==4.11.0",
     "bcrypt==4.3.0",
+    "certifi==2025.10.5",
+    "click==8.3.0",
     "crypto>=1.4.1",
-    "fastapi>=0.118.0",
-    "fhir-resources>=8.1.0",
-    "httpx>=0.28.1",
+    "fastapi==0.118.0",
+    "fhir-core==1.1.4",
+    "fhir-resources==8.1.0",
+    "h11==0.16.0",
+    "httpcore==1.0.9",
+    "httpx==0.28.1",
+    "idna==3.10",
     "pandas>=2.3.3",
     "passlib>=1.7.4",
     "psycopg2-binary>=2.9.10",
-    "pydantic>=2.11.9",
-    "pydantic-settings>=2.11.0",
+    "pydantic==2.11.10",
+    "pydantic-core==2.33.2",
+    "pydantic-settings==2.11.0",
     "pymongo>=4.15.2",
+    "python-dotenv==1.1.1",
     "redis>=6.4.0",
     "scikit-learn>=1.7.2",
-    "sqlalchemy>=2.0.43",
-    "uvicorn>=0.37.0",
+    "sniffio==1.3.1",
+    "sqlalchemy==2.0.43",
+    "starlette==0.48.0",
+    "typing-extensions==4.15.0",
+    "typing-inspection==0.4.2",
+    "uvicorn==0.37.0",
 ]
