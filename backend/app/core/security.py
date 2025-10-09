@@ -38,8 +38,8 @@ def decode_access_token(token: str) -> TokenData:
     """Decode and validate JWT token"""
     try:
         payload = jwt.decode(token, settings.secret_key, algorithms=[settings.algorithm])
-        username: str = payload.get("sub")
-        role: str = payload.get("role")
+        username: str | None = payload.get("sub")
+        role: str | None = payload.get("role")
         
         if username is None:
             raise HTTPException(

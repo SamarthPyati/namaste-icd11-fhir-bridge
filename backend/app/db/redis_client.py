@@ -18,7 +18,7 @@ class RedisClient:
             return json.loads(value)
         return None
     
-    def set(self, key: str, value: Any, expiry: int = None) -> bool:
+    def set(self, key: str, value: Any, expiry: int | None = None) -> bool:
         """Set value in cache"""
         expiry = expiry or settings.redis_cache_expiry
         return self.client.setex(
