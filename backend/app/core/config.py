@@ -48,6 +48,6 @@ class AppConfig(BaseSettings):
 
 @lru_cache
 def get_app_config() -> AppConfig: 
-    return AppConfig()
+    return AppConfig() # type: ignore
 
 settings: AppConfig = get_app_config()
