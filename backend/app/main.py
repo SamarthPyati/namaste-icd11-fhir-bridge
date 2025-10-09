@@ -42,7 +42,10 @@ app = FastAPI(
     version=settings.app_version,
     lifespan=lifespan, 
     docs_url="/docs",
-    redoc_url="/redoc"
+    redoc_url="/redoc", 
+    contact={
+        'Creator': 'Samarth Pyati'
+    }
 )
 
 # CORS Middleware

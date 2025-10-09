@@ -13,6 +13,12 @@ AYUR-SANKET is a lightweight, plug-and-play microservice that bridges traditiona
 
 **Not a new EMR system** → **An intelligent add-on plugin for ANY existing EMR**
 
+<p align="center">
+  <img src="assets/preview.png" alt="AYUR-SANKET API Endpoints Preview" width="600"/>
+  <br/>
+  <span align="center"><b>AYUR-SANKET API Endpoints</b></span>
+</p>
+
 ## Key Features
 
 - **Plug-and-Play**: Works with any EMR system without modifications
@@ -49,12 +55,14 @@ AYUR-SANKET is a lightweight, plug-and-play microservice that bridges traditiona
 - **ABHA OAuth 2.0** - National health authentication
 - **SNOMED CT/LOINC** - Clinical terminology standards
 
+<!-- 
 ## Build Application
 
 ### Step 1 - Set up the virtual environment 
 ```
-python -m venv .venv                (Win)
-.\venv\Scripts\activate
+uv init 
+uv venv
+source .venv/bin/activate
 ```
 ```
 python3 -m venv .venv               (Mac/Linux)
@@ -78,7 +86,7 @@ Creates and connect to the instance of the Database (engine)
 Database schema required to store the data
 
 ### Services
-Middleware services
+Middleware services -->
 
 <!-- 
 ## Quick Start

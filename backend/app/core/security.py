@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from typing import Optional
-import jwt  # using PyJWT instead of jose
+import jwt
 from jwt import PyJWTError, ExpiredSignatureError, InvalidTokenError
 from passlib.context import CryptContext
 from fastapi import Depends, HTTPException, status
